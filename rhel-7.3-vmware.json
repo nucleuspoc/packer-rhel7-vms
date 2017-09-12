@@ -2,7 +2,7 @@
   "variables": {
     "vm_name": "rhel-7.3-vmware",
     "iso_url": "{{env `ISO_URL`}}",
-    "iso_sha256": "377b264f3488a623a2155c65f9b9429c9b3f9c35"
+    "iso_sha256": "120acbca7b3d55465eb9f8ef53ad7365f2997d42d4f83d7cc285bf5c71e1131f"
   },
 
   "builders": [{
