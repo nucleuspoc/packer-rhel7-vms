@@ -25,6 +25,9 @@
     "tools_upload_flavor": "linux",
     "tools_upload_path": "/tmp/vmware_tools_{{.Flavor}}.iso",
     "http_directory": "http",
+    "ssh_wait_timeout": "20m",
+    "ssh_username": "vagrant",
+    "ssh_password": "vagrant",    
     "shutdown_command": "echo 'vagrant' | sudo -S /sbin/halt -h -p",
     "boot_wait": "5s",
     "boot_command": [
